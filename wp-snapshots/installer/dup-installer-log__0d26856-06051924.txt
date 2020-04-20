@@ -1,0 +1,464 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 06:46:32
+* VERSION: 1.3.24
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.1.32                                |7.3.7
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2019-12-06 05:19:24
+WP VERSION__________: 5.2.4
+DUP VERSION_________: 1.3.24
+DB__________________: 5.7.26
+DB TABLES___________: 20
+DB ROWS_____________: 3,510
+DB FILE SIZE________: 6.13MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.3.7 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.7
+DOC ROOT____________: "D:/projects/renew_project"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://renew_project.com/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "20191120_managementpartnersmyanamr_0d268568680c74ea5227_20191206051924_archive.zip"
+SIZE________________: 77.65MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 5568
+    [filename] => D:\projects\renew_project\20191120_managementpartnersmyanamr_0d268568680c74ea5227_20191206051924_archive.zip
+    [comment] => 
+)
+File timestamp set to Current: 2019-12-06 06:46:36
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 06:46:36 - RUNTIME: 4.3500 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 06:47:37
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.3.16 -- Build Server: 5.7.26
+FILE SIZE:	dup-database__0d26856-06051924.sql (3.27MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[D:/projects/renew_project/dup-installer/dup-installer-data__0d26856-06051924.sql]
+COLLATE FB:	Off
+[PHP ERR][WARN] MSG:count(): Parameter must be an array or an object that implements Countable [CODE:2|FILE:D:\projects\renew_project\dup-installer\ctrls\ctrl.s2.dbinstall.php|LINE:386]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	187
+
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_image_hover_ultimate_list: (13)
+wp_image_hover_ultimate_style: (2)
+wp_links: (0)
+wp_newsletter: (5)
+wp_newsletter_emails: (0)
+wp_newsletter_sent: (0)
+wp_newsletter_stats: (0)
+wp_newsletter_user_logs: (5)
+wp_options: (246)
+wp_postmeta: (2219)
+wp_posts: (701)
+wp_term_relationships: (78)
+wp_term_taxonomy: (10)
+wp_termmeta: (0)
+wp_terms: (10)
+wp_usermeta: (34)
+wp_users: (1)
+Removed '26' cache/transient rows
+
+INSERT DATA RUNTIME: 0.4305 sec.
+STEP-2 COMPLETE @ 06:47:38 - RUNTIME: 0.4360 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 06:47:42
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Management Partners Myanmar"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/.sites/site30/web/"
+path_new______________: "D:/projects/renew_project/"
+siteurl_______________: "http://renew_project.com"
+url_old_______________: "http://renew2.den-saku.com"
+url_new_______________: "http://renew_project.com"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "root"
+dbname________________: "renew_project"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/.sites/site30/web/" ========================> "D:/projects/renew_project/"
+	SEARCH  2:"\/home\/.sites\/site30\/web\/" ===================> "D:\/projects\/renew_project\/"
+	SEARCH  3:"%2Fhome%2F.sites%2Fsite30%2Fweb%2F" ==============> "D%3A%2Fprojects%2Frenew_project%2F"
+	SEARCH  4:"\home\.sites\site30\web" =========================> "D:/projects/renew_project"
+	SEARCH  5:"\\home\\.sites\\site30\\web" =====================> "D:\/projects\/renew_project"
+	SEARCH  6:"%5Chome%5C.sites%5Csite30%5Cweb" =================> "D%3A%2Fprojects%2Frenew_project"
+	SEARCH  7:"//renew2.den-saku.com" ===========================> "//renew_project.com"
+	SEARCH  8:"\/\/renew2.den-saku.com" =========================> "\/\/renew_project.com"
+	SEARCH  9:"%2F%2Frenew2.den-saku.com" =======================> "%2F%2Frenew_project.com"
+	SEARCH 10:"https://renew_project.com" =======================> "http://renew_project.com"
+	SEARCH 11:"https:\/\/renew_project.com" =====================> "http:\/\/renew_project.com"
+	SEARCH 12:"https%3A%2F%2Frenew_project.com" =================> "http%3A%2F%2Frenew_project.com"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_image_hover_ultimate_list"____________________[ROWS:    13][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/.sites/site30/web/" ========================> "D:/projects/renew_project/"
+	SEARCH  2:"\/home\/.sites\/site30\/web\/" ===================> "D:\/projects\/renew_project\/"
+	SEARCH  3:"%2Fhome%2F.sites%2Fsite30%2Fweb%2F" ==============> "D%3A%2Fprojects%2Frenew_project%2F"
+	SEARCH  4:"\home\.sites\site30\web" =========================> "D:/projects/renew_project"
+	SEARCH  5:"\\home\\.sites\\site30\\web" =====================> "D:\/projects\/renew_project"
+	SEARCH  6:"%5Chome%5C.sites%5Csite30%5Cweb" =================> "D%3A%2Fprojects%2Frenew_project"
+	SEARCH  7:"//renew2.den-saku.com" ===========================> "//renew_project.com"
+	SEARCH  8:"\/\/renew2.den-saku.com" =========================> "\/\/renew_project.com"
+	SEARCH  9:"%2F%2Frenew2.den-saku.com" =======================> "%2F%2Frenew_project.com"
+	SEARCH 10:"https://renew_project.com" =======================> "http://renew_project.com"
+	SEARCH 11:"https:\/\/renew_project.com" =====================> "http:\/\/renew_project.com"
+	SEARCH 12:"https%3A%2F%2Frenew_project.com" =================> "http%3A%2F%2Frenew_project.com"
+
+EVALUATE TABLE: "wp_image_hover_ultimate_style"___________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/.sites/site30/web/" ========================> "D:/projects/renew_project/"
+	SEARCH  2:"\/home\/.sites\/site30\/web\/" ===================> "D:\/projects\/renew_project\/"
+	SEARCH  3:"%2Fhome%2F.sites%2Fsite30%2Fweb%2F" ==============> "D%3A%2Fprojects%2Frenew_project%2F"
+	SEARCH  4:"\home\.sites\site30\web" =========================> "D:/projects/renew_project"
+	SEARCH  5:"\\home\\.sites\\site30\\web" =====================> "D:\/projects\/renew_project"
+	SEARCH  6:"%5Chome%5C.sites%5Csite30%5Cweb" =================> "D%3A%2Fprojects%2Frenew_project"
+	SEARCH  7:"//renew2.den-saku.com" ===========================> "//renew_project.com"
+	SEARCH  8:"\/\/renew2.den-saku.com" =========================> "\/\/renew_project.com"
+	SEARCH  9:"%2F%2Frenew2.den-saku.com" =======================> "%2F%2Frenew_project.com"
+	SEARCH 10:"https://renew_project.com" =======================> "http://renew_project.com"
+	SEARCH 11:"https:\/\/renew_project.com" =====================> "http:\/\/renew_project.com"
+	SEARCH 12:"https%3A%2F%2Frenew_project.com" =================> "http%3A%2F%2Frenew_project.com"
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_newsletter"___________________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/.sites/site30/web/" ========================> "D:/projects/renew_project/"
+	SEARCH  2:"\/home\/.sites\/site30\/web\/" ===================> "D:\/projects\/renew_project\/"
+	SEARCH  3:"%2Fhome%2F.sites%2Fsite30%2Fweb%2F" ==============> "D%3A%2Fprojects%2Frenew_project%2F"
+	SEARCH  4:"\home\.sites\site30\web" =========================> "D:/projects/renew_project"
+	SEARCH  5:"\\home\\.sites\\site30\\web" =====================> "D:\/projects\/renew_project"
+	SEARCH  6:"%5Chome%5C.sites%5Csite30%5Cweb" =================> "D%3A%2Fprojects%2Frenew_project"
+	SEARCH  7:"//renew2.den-saku.com" ===========================> "//renew_project.com"
+	SEARCH  8:"\/\/renew2.den-saku.com" =========================> "\/\/renew_project.com"
+	SEARCH  9:"%2F%2Frenew2.den-saku.com" =======================> "%2F%2Frenew_project.com"
+	SEARCH 10:"https://renew_project.com" =======================> "http://renew_project.com"
+	SEARCH 11:"https:\/\/renew_project.com" =====================> "http:\/\/renew_project.com"
+	SEARCH 12:"https%3A%2F%2Frenew_project.com" =================> "http%3A%2F%2Frenew_project.com"
+
+EVALUATE TABLE: "wp_newsletter_emails"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_newsletter_sent"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_newsletter_stats"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_newsletter_user_logs"_________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/.sites/site30/web/" ========================> "D:/projects/renew_project/"
+	SEARCH  2:"\/home\/.sites\/site30\/web\/" ===================> "D:\/projects\/renew_project\/"
+	SEARCH  3:"%2Fhome%2F.sites%2Fsite30%2Fweb%2F" ==============> "D%3A%2Fprojects%2Frenew_project%2F"
+	SEARCH  4:"\home\.sites\site30\web" =========================> "D:/projects/renew_project"
+	SEARCH  5:"\\home\\.sites\\site30\\web" =====================> "D:\/projects\/renew_project"
+	SEARCH  6:"%5Chome%5C.sites%5Csite30%5Cweb" =================> "D%3A%2Fprojects%2Frenew_project"
+	SEARCH  7:"//renew2.den-saku.com" ===========================> "//renew_project.com"
+	SEARCH  8:"\/\/renew2.den-saku.com" =========================> "\/\/renew_project.com"
+	SEARCH  9:"%2F%2Frenew2.den-saku.com" =======================> "%2F%2Frenew_project.com"
+	SEARCH 10:"https://renew_project.com" =======================> "http://renew_project.com"
+	SEARCH 11:"https:\/\/renew_project.com" =====================> "http:\/\/renew_project.com"
+	SEARCH 12:"https%3A%2F%2Frenew_project.com" =================> "http%3A%2F%2Frenew_project.com"
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   246][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/.sites/site30/web/" ========================> "D:/projects/renew_project/"
+	SEARCH  2:"\/home\/.sites\/site30\/web\/" ===================> "D:\/projects\/renew_project\/"
+	SEARCH  3:"%2Fhome%2F.sites%2Fsite30%2Fweb%2F" ==============> "D%3A%2Fprojects%2Frenew_project%2F"
+	SEARCH  4:"\home\.sites\site30\web" =========================> "D:/projects/renew_project"
+	SEARCH  5:"\\home\\.sites\\site30\\web" =====================> "D:\/projects\/renew_project"
+	SEARCH  6:"%5Chome%5C.sites%5Csite30%5Cweb" =================> "D%3A%2Fprojects%2Frenew_project"
+	SEARCH  7:"//renew2.den-saku.com" ===========================> "//renew_project.com"
+	SEARCH  8:"\/\/renew2.den-saku.com" =========================> "\/\/renew_project.com"
+	SEARCH  9:"%2F%2Frenew2.den-saku.com" =======================> "%2F%2Frenew_project.com"
+	SEARCH 10:"https://renew_project.com" =======================> "http://renew_project.com"
+	SEARCH 11:"https:\/\/renew_project.com" =====================> "http:\/\/renew_project.com"
+	SEARCH 12:"https%3A%2F%2Frenew_project.com" =================> "http%3A%2F%2Frenew_project.com"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  2219][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/.sites/site30/web/" ========================> "D:/projects/renew_project/"
+	SEARCH  2:"\/home\/.sites\/site30\/web\/" ===================> "D:\/projects\/renew_project\/"
+	SEARCH  3:"%2Fhome%2F.sites%2Fsite30%2Fweb%2F" ==============> "D%3A%2Fprojects%2Frenew_project%2F"
+	SEARCH  4:"\home\.sites\site30\web" =========================> "D:/projects/renew_project"
+	SEARCH  5:"\\home\\.sites\\site30\\web" =====================> "D:\/projects\/renew_project"
+	SEARCH  6:"%5Chome%5C.sites%5Csite30%5Cweb" =================> "D%3A%2Fprojects%2Frenew_project"
+	SEARCH  7:"//renew2.den-saku.com" ===========================> "//renew_project.com"
+	SEARCH  8:"\/\/renew2.den-saku.com" =========================> "\/\/renew_project.com"
+	SEARCH  9:"%2F%2Frenew2.den-saku.com" =======================> "%2F%2Frenew_project.com"
+	SEARCH 10:"https://renew_project.com" =======================> "http://renew_project.com"
+	SEARCH 11:"https:\/\/renew_project.com" =====================> "http:\/\/renew_project.com"
+	SEARCH 12:"https%3A%2F%2Frenew_project.com" =================> "http%3A%2F%2Frenew_project.com"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   701][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/.sites/site30/web/" ========================> "D:/projects/renew_project/"
+	SEARCH  2:"\/home\/.sites\/site30\/web\/" ===================> "D:\/projects\/renew_project\/"
+	SEARCH  3:"%2Fhome%2F.sites%2Fsite30%2Fweb%2F" ==============> "D%3A%2Fprojects%2Frenew_project%2F"
+	SEARCH  4:"\home\.sites\site30\web" =========================> "D:/projects/renew_project"
+	SEARCH  5:"\\home\\.sites\\site30\\web" =====================> "D:\/projects\/renew_project"
+	SEARCH  6:"%5Chome%5C.sites%5Csite30%5Cweb" =================> "D%3A%2Fprojects%2Frenew_project"
+	SEARCH  7:"//renew2.den-saku.com" ===========================> "//renew_project.com"
+	SEARCH  8:"\/\/renew2.den-saku.com" =========================> "\/\/renew_project.com"
+	SEARCH  9:"%2F%2Frenew2.den-saku.com" =======================> "%2F%2Frenew_project.com"
+	SEARCH 10:"https://renew_project.com" =======================> "http://renew_project.com"
+	SEARCH 11:"https:\/\/renew_project.com" =====================> "http:\/\/renew_project.com"
+	SEARCH 12:"https%3A%2F%2Frenew_project.com" =================> "http%3A%2F%2Frenew_project.com"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    78][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/.sites/site30/web/" ========================> "D:/projects/renew_project/"
+	SEARCH  2:"\/home\/.sites\/site30\/web\/" ===================> "D:\/projects\/renew_project\/"
+	SEARCH  3:"%2Fhome%2F.sites%2Fsite30%2Fweb%2F" ==============> "D%3A%2Fprojects%2Frenew_project%2F"
+	SEARCH  4:"\home\.sites\site30\web" =========================> "D:/projects/renew_project"
+	SEARCH  5:"\\home\\.sites\\site30\\web" =====================> "D:\/projects\/renew_project"
+	SEARCH  6:"%5Chome%5C.sites%5Csite30%5Cweb" =================> "D%3A%2Fprojects%2Frenew_project"
+	SEARCH  7:"//renew2.den-saku.com" ===========================> "//renew_project.com"
+	SEARCH  8:"\/\/renew2.den-saku.com" =========================> "\/\/renew_project.com"
+	SEARCH  9:"%2F%2Frenew2.den-saku.com" =======================> "%2F%2Frenew_project.com"
+	SEARCH 10:"https://renew_project.com" =======================> "http://renew_project.com"
+	SEARCH 11:"https:\/\/renew_project.com" =====================> "http:\/\/renew_project.com"
+	SEARCH 12:"https%3A%2F%2Frenew_project.com" =================> "http%3A%2F%2Frenew_project.com"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/.sites/site30/web/" ========================> "D:/projects/renew_project/"
+	SEARCH  2:"\/home\/.sites\/site30\/web\/" ===================> "D:\/projects\/renew_project\/"
+	SEARCH  3:"%2Fhome%2F.sites%2Fsite30%2Fweb%2F" ==============> "D%3A%2Fprojects%2Frenew_project%2F"
+	SEARCH  4:"\home\.sites\site30\web" =========================> "D:/projects/renew_project"
+	SEARCH  5:"\\home\\.sites\\site30\\web" =====================> "D:\/projects\/renew_project"
+	SEARCH  6:"%5Chome%5C.sites%5Csite30%5Cweb" =================> "D%3A%2Fprojects%2Frenew_project"
+	SEARCH  7:"//renew2.den-saku.com" ===========================> "//renew_project.com"
+	SEARCH  8:"\/\/renew2.den-saku.com" =========================> "\/\/renew_project.com"
+	SEARCH  9:"%2F%2Frenew2.den-saku.com" =======================> "%2F%2Frenew_project.com"
+	SEARCH 10:"https://renew_project.com" =======================> "http://renew_project.com"
+	SEARCH 11:"https:\/\/renew_project.com" =====================> "http:\/\/renew_project.com"
+	SEARCH 12:"https%3A%2F%2Frenew_project.com" =================> "http%3A%2F%2Frenew_project.com"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/.sites/site30/web/" ========================> "D:/projects/renew_project/"
+	SEARCH  2:"\/home\/.sites\/site30\/web\/" ===================> "D:\/projects\/renew_project\/"
+	SEARCH  3:"%2Fhome%2F.sites%2Fsite30%2Fweb%2F" ==============> "D%3A%2Fprojects%2Frenew_project%2F"
+	SEARCH  4:"\home\.sites\site30\web" =========================> "D:/projects/renew_project"
+	SEARCH  5:"\\home\\.sites\\site30\\web" =====================> "D:\/projects\/renew_project"
+	SEARCH  6:"%5Chome%5C.sites%5Csite30%5Cweb" =================> "D%3A%2Fprojects%2Frenew_project"
+	SEARCH  7:"//renew2.den-saku.com" ===========================> "//renew_project.com"
+	SEARCH  8:"\/\/renew2.den-saku.com" =========================> "\/\/renew_project.com"
+	SEARCH  9:"%2F%2Frenew2.den-saku.com" =======================> "%2F%2Frenew_project.com"
+	SEARCH 10:"https://renew_project.com" =======================> "http://renew_project.com"
+	SEARCH 11:"https:\/\/renew_project.com" =====================> "http:\/\/renew_project.com"
+	SEARCH 12:"https%3A%2F%2Frenew_project.com" =================> "http%3A%2F%2Frenew_project.com"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    34][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/.sites/site30/web/" ========================> "D:/projects/renew_project/"
+	SEARCH  2:"\/home\/.sites\/site30\/web\/" ===================> "D:\/projects\/renew_project\/"
+	SEARCH  3:"%2Fhome%2F.sites%2Fsite30%2Fweb%2F" ==============> "D%3A%2Fprojects%2Frenew_project%2F"
+	SEARCH  4:"\home\.sites\site30\web" =========================> "D:/projects/renew_project"
+	SEARCH  5:"\\home\\.sites\\site30\\web" =====================> "D:\/projects\/renew_project"
+	SEARCH  6:"%5Chome%5C.sites%5Csite30%5Cweb" =================> "D%3A%2Fprojects%2Frenew_project"
+	SEARCH  7:"//renew2.den-saku.com" ===========================> "//renew_project.com"
+	SEARCH  8:"\/\/renew2.den-saku.com" =========================> "\/\/renew_project.com"
+	SEARCH  9:"%2F%2Frenew2.den-saku.com" =======================> "%2F%2Frenew_project.com"
+	SEARCH 10:"https://renew_project.com" =======================> "http://renew_project.com"
+	SEARCH 11:"https:\/\/renew_project.com" =====================> "http:\/\/renew_project.com"
+	SEARCH 12:"https%3A%2F%2Frenew_project.com" =================> "http%3A%2F%2Frenew_project.com"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/.sites/site30/web/" ========================> "D:/projects/renew_project/"
+	SEARCH  2:"\/home\/.sites\/site30\/web\/" ===================> "D:\/projects\/renew_project\/"
+	SEARCH  3:"%2Fhome%2F.sites%2Fsite30%2Fweb%2F" ==============> "D%3A%2Fprojects%2Frenew_project%2F"
+	SEARCH  4:"\home\.sites\site30\web" =========================> "D:/projects/renew_project"
+	SEARCH  5:"\\home\\.sites\\site30\\web" =====================> "D:\/projects\/renew_project"
+	SEARCH  6:"%5Chome%5C.sites%5Csite30%5Cweb" =================> "D%3A%2Fprojects%2Frenew_project"
+	SEARCH  7:"//renew2.den-saku.com" ===========================> "//renew_project.com"
+	SEARCH  8:"\/\/renew2.den-saku.com" =========================> "\/\/renew_project.com"
+	SEARCH  9:"%2F%2Frenew2.den-saku.com" =======================> "%2F%2Frenew_project.com"
+	SEARCH 10:"https://renew_project.com" =======================> "http://renew_project.com"
+	SEARCH 11:"https:\/\/renew_project.com" =====================> "http:\/\/renew_project.com"
+	SEARCH 12:"https%3A%2F%2Frenew_project.com" =================> "http%3A%2F%2Frenew_project.com"
+--------------------------------------
+SCANNED:	Tables:20 	|	 Rows:3325 	|	 Cells:27122 
+UPDATED:	Tables:5 	|	 Rows:870 	|	 Cells:1051 
+ERRORS:		0 
+RUNTIME:	0.572300 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""renew_project""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache 'htaccess.orig' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 06:47:43 - RUNTIME: 0.6469 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
